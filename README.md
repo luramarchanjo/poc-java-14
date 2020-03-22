@@ -73,4 +73,10 @@ labels (with no fall through), with a further new statement for yielding a value
 expression. These changes will simplify everyday coding, and prepare the way for the use of pattern 
 matching in switch. This was a preview language feature in JDK 12 and JDK 13.
 
+#### [Text Blocks (Second Preview)](https://openjdk.java.net/jeps/368)
+
+Add text blocks to the Java language. A text block is a multi-line string literal that avoids the 
+need for most escape sequences, automatically formats the string in a predictable way, and gives the 
+developer control over the format when desired. This is a preview language feature in JDK 14.
+
 # [Release Notes](https://openjdk.java.net/projects/jdk/14/)
