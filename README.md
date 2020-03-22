@@ -44,4 +44,20 @@ To test your application use need to run the command bellow:
 
 `java --enable-preview -cp src/main/* com.example.PatternMatching`
 
+#### [Packaging Tool (Incubator)](https://openjdk.java.net/jeps/343)
+
+Create a tool for packaging self-contained Java applications.
+
+##### Packing and running
+
+To package your application, run the command bellow:
+
+`jpackage --name poc-java-14 --input target/ --main-jar poc-java-14-1.0-SNAPSHOT.jar --main-class com.example.PatternMatching`
+
+To run your application, execute the generated file `poc-java-14*` at your root folder:
+
+* Linux: deb and rpm
+* macOS: pkg and dmg
+* Windows: msi and exe
+
 # [Release Notes](https://openjdk.java.net/projects/jdk/14/)

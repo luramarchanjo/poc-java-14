@@ -167,3 +167,4 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 /target/classes/META-INF/poc-java-14.kotlin_module
+/poc-java-14_1.0-1_amd64.deb
