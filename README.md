@@ -18,4 +18,14 @@ package declares a type called Record, then code in the existing source file whi
 type will not compile without change. To make the code compile, import the other package's Record 
 type using a single-type import, for example, import com.myapp.Record;.
 
+##### Compiling and running
+
+To compile you need to enable the preview feature, to do that, execute the command bellow:
+
+`javac --enable-preview --release 14 src/main/java/com/example/RecordPerson.java src/main/java/com/example/RecordMain.java`
+
+To test your application use need to run the command bellow:
+
+`java --enable-preview -cp src/main/* com.example.RecordMain`
+
 [Release Notes](https://jdk.java.net/14/release-notes)
