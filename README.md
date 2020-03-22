@@ -28,4 +28,20 @@ To test your application use need to run the command bellow:
 
 `java --enable-preview -cp src/main/* com.example.RecordMain`
 
-[Release Notes](https://jdk.java.net/14/release-notes)
+#### [Pattern Matching for instanceof (Preview)](https://openjdk.java.net/jeps/305)
+
+Enhance the Java programming language with pattern matching for the instanceof operator. Pattern 
+matching allows common logic in a program, namely the conditional extraction of components from 
+objects, to be expressed more concisely and safely. This is a preview language feature in JDK 14.
+
+##### Compiling and running
+
+To compile you need to enable the preview feature, to do that, execute the command bellow:
+
+`javac --enable-preview --release 14 src/main/java/com/example/PatternMatching.java`
+
+To test your application use need to run the command bellow:
+
+`java --enable-preview -cp src/main/* com.example.PatternMatching`
+
+# [Release Notes](https://openjdk.java.net/projects/jdk/14/)
